@@ -1,0 +1,3 @@
+initRemote ${tac.location}
+logonProject -pn ${talend.project} -ul "${tac.user}" -up ${tac.password}
+publishRoute ${project.artifactId} -r "${repo.snapshot}" -u ${repo.user} -p ${repo.password} -pv ${project.version} -g ${project.groupId}.esb -a ${project.artifactId}
